@@ -1,0 +1,56 @@
+@charset "utf-8";
+
+.form {
+	margin-right: auto;
+	margin-left: auto;
+	width: 73%;
+}
+
+input, textarea {  
+    padding: 5px; 
+    border: solid 1px #FFF;  
+    outline: 0;  
+    font: normal 13px/100% "PT Mono", Courier, monospace;
+    width: 300px;  
+    background: #EC1A5C; 
+    }  
+textarea {  
+    width: 500px;  
+    max-width: 600px;  
+    height: 250px;  
+	padding: 5px;  
+	margin-bottom: 20px;
+    }  
+input:hover, textarea:hover,  
+input:focus, textarea:focus {  
+    border-color: #EC1A5C;  
+    }  
+ 
+.submit input {  
+    width: 50px;  
+    padding: 9px 15px;  
+    border: 0;  
+	line-height: 150%;
+    font-size: 14px;  
+    }  
+	
+#submit {
+	width: 50px;
+}
+	
+	
+form input:focus{
+	color: #FFF;
+}
+
+form textarea:focus{
+	color: #FFF;
+}
+
+#send {
+	width: 100px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	background-color: #FFF;
+	margin-bottom: 30px;
+}
