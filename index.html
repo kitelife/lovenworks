@@ -19,9 +19,13 @@
 <script src="javascript/jquery.waitforimages.js" type="text/javascript" charset="utf-8"></script>
 
 
-<script type="text/javascript" src="js/jquery.moatext-min.js"></script>
-<script type="text/javascript" src="js/jquery.qtip.min.js"></script>
+<script type="text/javascript" src="javascript/jquery.moatext-min.js"></script>
+<script type="text/javascript" src="javascript/jquery.qtip.min.js"></script>
+<script type="text/javascript" src="javascript/inner.js"></script>
+<script type="text/javascript" src="javascript/contact_me.js"></script>
 <link rel="stylesheet" type="text/css" href="css/jquery.qtip.css"/>
+<link rel="stylesheet" type="text/css" href="css/from-style.css"/>
+
 
 <script type="text/javascript">
 	//         
@@ -293,13 +297,15 @@
 
 					<form class="form" action="handlecontact.php" method="post">
 						<p>- Subject -</p>
-						<input type="text" name="subject" id="subject" />
-						<p>- Your Email -</p>
-						<input type="text" name="email" id="email" />
+						<input type="text" name="subject" id="subject" onblur="validateLength(1, 50, this, document.getElementById('subject_help'))" />
+						<span id="subject_help" class="help"></span>
+						<p>- Your Address -</p>
+						<input type="text" name="email" id="email" onblur="validateEmail(this, document.getElementById('email_help'))" />
+						<span id="email_help" class="help"></span>
 						<p>- Your Message -</p>
-						<textarea name="message"></textarea>
-						<input id="send" type="submit" value="- Send -" />
-					</form>
+						<textarea name="message" id="message" onblur="validateTextarea(1, 500, this, document.getElementById('message_help'))"></textarea>         <div id="message_help" class="help"></div>
+						<input id="send" type="submit" value="- Send -" onclick="placeOrder(this.form);" />
+					</form> 
 				</div>
 			</div>
 		</div>
