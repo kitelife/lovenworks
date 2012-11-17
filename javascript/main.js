@@ -127,11 +127,11 @@ $(document)
 											$('.back-to-top').fadeOut();
 
 											$('#content .previous3').addClass('next4').removeClass('previous3');
-											$('#content .previous2').animate({'left': '-307%'}, duration, easing,
+											$('#content .previous2').animate({'left': '-229%'}, duration, easing,
 													function() {
 														$(this).addClass('previous3').removeClass('previous2');
 											});
-											$('#content .previous').animate({'left': '151'}, duration, easing,
+											$('#content .previous').animate({'left': '-151%'}, duration, easing,
 													function(){
 														$(this).addClass('previous2').removeClass('previous');
 											});
@@ -149,7 +149,7 @@ $(document)
 													function(){
 														$(this).addClass('next').removeClass('next2');
 											});
-											$('#content .next3').animate({'left': '251%'}, duration, easing,
+											$('#content .next3').animate({'left': '173%'}, duration, easing,
 													function(){
 														$(this).addClass('next2').removeClass('next3');
 											});
@@ -202,7 +202,7 @@ $(document)
 													}
 											).find('.page-number').fadeOut().find('.back-to-top').fadeOut();
 											
-											$('#content .next').animate({'left': '-73'}, duration, easing,
+											$('#content .next').animate({'left': '-73%'}, duration, easing,
 													function(){
 														$(this).addClass('previous').removeClass('next');
 												}
@@ -302,7 +302,7 @@ $(document)
 													function(){
 														$(this).remove();
 													}
-											).clone().addClass('next3').removeClass('next6').appendTo('#content').css({'left': '251'}).animate({'left': '-73%'}, duration);
+											).clone().addClass('next3').removeClass('next6').appendTo('#content').css({'left': '251%'}).animate({'left': '-73%'}, duration);
 											// animate menu
 											$('#navigation').css('text-align', 'left');
 											$('#navigation .previous3').addClass('next4').removeClass('previous3');
@@ -358,7 +358,7 @@ $(document)
 														$(this).addClass('next2').removeClass('next');
 													}
 											);
-											$('#content .active').animate({'left': '95%', 'margin-right' : '0%', 'margin-left' : '0%', 'backgroundColor' : '##EFF0F1'},duration, easing,
+											$('#content .active').animate({'left': '95%', 'margin-right' : '0%', 'margin-left' : '0%', 'backgroundColor' : '#EFF0F1'},duration, easing,
 													function(){
 														$(this).addClass('next').removeClass('active');
 													}
@@ -373,7 +373,7 @@ $(document)
 														$(this).addClass('previous').removeClass('previous2');
 													}
 											);
-											$('#content .previous3').animate({'left': '-151'}, duration, easing,
+											$('#content .previous3').animate({'left': '-151%'}, duration, easing,
 													function(){
 														$(this).addClass('previous2').removeClass('previous3');
 													}
@@ -450,7 +450,7 @@ $(document)
 													function(){
 														$(this).remove();
 													}
-											).clone().addClass('previous3').removeClass('previous5').prependTo('#content').css({'left': '-229'}).animate({'left': '173%'}, duration);
+											).clone().addClass('previous3').removeClass('previous5').prependTo('#content').css({'left': '-229%'}).animate({'left': '173%'}, duration);
 											
 											// animate menu
 											$('#navigation').css('text-align', 'left');
@@ -493,7 +493,7 @@ $(document)
 											$('#content .next2').addClass('previous5').removeClass('next2');
 											$('#content .next').addClass('previous6').removeClass('next');
 											
-											$('#content .active').animate({'left': '251%', 'margin-right' : '0%', 'margin-left' : '0%', 'backgroundColor' : '##EFF0F1'}, duration, easing,
+											$('#content .active').animate({'left': '251%', 'margin-right' : '0%', 'margin-left' : '0%', 'backgroundColor' : '#EFF0F1'}, duration, easing,
 													function(){
 														$(this).addClass('next3').removeClass('active');
 													}
