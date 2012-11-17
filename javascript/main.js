@@ -1,6 +1,6 @@
 // !Initialize
 
-var duration = 1000;
+var duration = 1200;
 var easing = 'easeInOutCubic';
 var highest_page = 0;
 $(document)
@@ -135,7 +135,7 @@ $(document)
 													function(){
 														$(this).addClass('previous2').removeClass('previous');
 											});
-											$('#content .active').animate({'left' : '-73%', 'margin-right' : '0%', 'margin-left' : '0%', 'backgroundColor' : '##EFF0F1'}, duration, easing,
+											$('#content .active').animate({'left' : '-73%', 'margin-right' : '0%', 'margin-left' : '0%', 'backgroundColor' : '#EFF0F1'}, duration, easing,
 													function() {
 														$(this).addClass('previous').removeClass('active');
 													}
@@ -196,7 +196,7 @@ $(document)
 														$(this).addClass('previous3').removeClass('previous');
 													}
 											);
-											$('#content .active').animate({'left' : '-151%', 'margin-right' : '0%', 'margin-left' : '0%', 'backgroundColor' : '##EFF0F1'}, duration, easing,
+											$('#content .active').animate({'left' : '-151%', 'margin-right' : '0%', 'margin-left' : '0%', 'backgroundColor' : '#EFF0F1'}, duration, easing,
 													function() {
 														$(this).addClass('previous2').removeClass('active');
 													}
@@ -270,7 +270,7 @@ $(document)
 											$('#content .previous2').addClass('next5').removeClass('previous2');
 											$('#content .previous').addClass('next6').removeClass('previous');
 											
-											$('#content .active').animate({'left': '-229%', 'margin-right' : '0%', 'margin-left' : '0%', 'backgroundColor' : '##EFF0F1'},duration, easing,
+											$('#content .active').animate({'left': '-229%', 'margin-right' : '0%', 'margin-left' : '0%', 'backgroundColor' : '#EFF0F1'},duration, easing,
 													function(){
 														$(this).addClass('previous3').removeClass('active');
 													}
@@ -421,7 +421,7 @@ $(document)
 														$(this).addClass('next3').removeClass('next');
 													}
 											);
-											$('#content .active').animate({'left': '173%', 'margin-right' : '0%', 'margin-left' : '0%', 'backgroundColor' : '##EFF0F1'}, duration, easing,
+											$('#content .active').animate({'left': '173%', 'margin-right' : '0%', 'margin-left' : '0%', 'backgroundColor' : '#EFF0F1'}, duration, easing,
 													function(){
 														$(this).addClass('next2').removeClass('active');
 													}
