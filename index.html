@@ -21,11 +21,40 @@
 
 <script type="text/javascript" src="javascript/jquery.moatext-min.js"></script>
 <script type="text/javascript" src="javascript/jquery.qtip.min.js"></script>
-<script type="text/javascript" src="javascript/inner.js"></script>
-<script type="text/javascript" src="javascript/contact_me.js"></script>
 <link rel="stylesheet" type="text/css" href="css/jquery.qtip.css"/>
+<script type="text/javascript" src="javascript/inner.js"></script>
+<link rel="stylesheet" type="text/css" href="css/inner.css"/>
+<script type="text/javascript" src="javascript/contact_me.js"></script>
 <link rel="stylesheet" type="text/css" href="css/from-style.css"/>
 
+<script type="text/javascript">
+$(document).ready(function()
+{
+  $('area[alt]').qtip(
+	{
+		content: {
+			attr: 'alt' 
+		},
+		
+		position: {
+			my: 'left center',
+			at: 'right center',
+			viewport: $(window),
+			adjust: {
+				x: 20,  y: -21
+			}
+		},
+		hide: {
+			fixed: true 
+		},
+		style: {
+			classes: ' ui-tooltip-shadow ui-tooltip-youtube'
+		}
+	});
+});
+
+
+</script>
 
 <script type="text/javascript">
 	//         

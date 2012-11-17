@@ -5,10 +5,10 @@
 
 	$HOSTNAME = 'localhost';
 	$USERNAME = 'root';
-	$PASSWD = 'xiayf';
+	$PASSWD = '';
 	$DATABASE = 'loven';
 
-	$mysqli = new mysqli($HOSTNAME, $USERNAME, $PASSWD, $DATABASE);
+	@$mysqli = new mysqli($HOSTNAME, $USERNAME, $PASSWD, $DATABASE);
 	$mysqli->query("SET NAMES 'UTF8'");
 	if(mysqli_connect_errno())
 	{
