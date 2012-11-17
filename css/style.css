@@ -1,152 +1,5 @@
 @charset "utf-8";
 
-body {
-	font-family: "PT Mono", Courier, monospace;
-	font-size: 0.7em;
-	font-style: normal;
-	line-height: 1.7;
-	color: #333;
-}
-
-h1 {
-	color: #EC1A5C;
-	font-size: 1.5em;
-	font-weight: 500;
-}
-
-h3 {
-	color: #333;
-	font-size: 1.2em;
-	font-weight: 500;
-}
-
-
-h2 {
-	color: #EC1A5C;
-	font-size: 1.2em;
-	font-weight: 500;
-}
-
-
-img { border-width: 0;
-}
-
-
-hr { border:0.5px #666 solid;
-     width: 200px;
-
-}
-
-a:link, a:visited {
-	text-decoration: none;
-	color: #666;
-}
-
-
-
-a:hover, a:active { 
-    text-decoration: underline;
-    color: #EC1A5C;
-}	
-
-::selection {
-    background: #EC1A5C; /* WebKit, Opera, & IE9 */
-    color: white;
-}
-
-::-moz-selection {
-    background: #EC1A5C; /* Firefox */
-    color: white;
-}
-
-
-#top_wrapper {
-	width: 87%;
-	margin-right: auto;
-	margin-left: auto;
-}
-
-#logo {
-	width: 55px;
-	margin-right: auto;
-	margin-left: auto;
-	padding: 20px;
-}
-
-#top_wrapper #nav #nav_inner ul li {
-	text-align: left;
-	display: table-cell;
-	padding-right: 23px;
-	padding-left: 20px;
-	padding-bottom: 20px;
-	padding-top: 20px;
-	font-size: 1.3em;
-}
-
-
-#content_wrapper {
-	width: 82%;
-	height: auto;
-	margin-right: auto;
-	margin-left: auto;
-	margin-top: 4%;
-	overflow: visible;
-	min-height: 100%;
-}
-
-
-
-
-
-
-#inner1 {
-	width: 80%;
-	margin-right: auto;
-	margin-left: auto;
-	padding-right: 30px;
-	padding-left: 30px;
-	
-}
-
-
-#inner2 {
-	width: 80%;
-	margin-right: auto;
-	margin-left: auto;	
-	padding-right: 30px;
-	padding-left: 30px;
-}
-
-#previous {
-	width: 25px;
-	height: auto;
-	float: left;
-	position: fixed;
-	top: 60%;
-	left: 8%;
-	z-index: 100;
-	
-}
-
-#next {
-	width: 25px;
-	height: auto;
-	float: left;
-	position: fixed;
-	top: 60%;
-	right: 8%;
-	z-index: 100;
-	
-}
-	
-
-#back {
-	width: 25px;
-	margin-right: auto;
-	margin-left: auto;
-	padding-top: 100px;
-	padding-bottom: 70px;
-}
 
 
 
@@ -373,7 +226,7 @@ iframe {
 #header {
 	z-index: 1;
 	position: absolute;
-	top: 110px;
+	top: 20px;
 	left: 10%;
 	right: 10%;
 	text-align: center;
@@ -487,7 +340,7 @@ iframe {
 #content .page {
 	width: 78%;
 	min-height: 100%;
-	padding-top: 300px;
+	padding-top: 170px;
 	position: absolute;
 }
 
@@ -917,7 +770,7 @@ a:hover, a:active {
 
 
 #content_wrapper {
-	width: 82%;
+	width: 84%;
 	height: auto;
 	margin-right: auto;
 	margin-left: auto;
@@ -932,7 +785,7 @@ a:hover, a:active {
 
 
 #inner1 {
-	width: 80%;
+	width: 82%;
 	margin-right: auto;
 	margin-left: auto;
 	padding-right: 30px;
@@ -942,7 +795,7 @@ a:hover, a:active {
 
 
 #inner2 {
-	width: 80%;
+	width: 82%;
 	margin-right: auto;
 	margin-left: auto;	
 	padding-right: 30px;
